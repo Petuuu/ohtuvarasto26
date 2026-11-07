@@ -63,6 +63,7 @@ def tulosta_virhetilanteet(mehua, olutta):
 
 
 def main():
+    # very long comment that goes against pylint rules to check CI workflow, some words are still needed
     mehua = Varasto(100.0)
     olutta = Varasto(100.0, 20.2)
 
